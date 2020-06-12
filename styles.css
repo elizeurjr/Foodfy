@@ -1,0 +1,124 @@
+:root{
+    --color-all:#111111;
+}
+
+*{
+  padding: 0;
+  border: 0;
+}
+
+.head {
+  display: grid;
+grid-template-columns: 1fr 3fr;
+
+}
+
+.head a{
+  font-family: 'Roboto', 'regular';
+  text-decoration: none;
+  text-align: center;
+  padding-inline-start: 30px;
+  vertical-align: 40px;
+  font-size: 16px;
+  color:var(--color-all);
+  padding-top: 36.1px;
+}
+
+.section_top {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 100%; 
+  background: #fbdfdb;
+  border-radius: 30px;
+  border-radius: 30px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 60px;
+}
+
+.box_content {
+  width: 320px;
+  margin: 0px;
+  padding-top: 117px;
+  padding-bottom: 117px;
+  padding-left: 60px;
+  padding-right: 0px;
+}
+
+#title {
+  font-size: 32px;
+  margin: 0px;
+  font-weight: bold;
+  color:var(--color-all);
+}
+
+.box_content p {
+  opacity: 0.7;
+  line-height: 28px;
+}
+
+.box_image img{
+  padding-top: 66px;
+  padding-right: 100px;
+  padding-left: 300px;
+}
+
+#box_font {
+  display: inline;
+  position: absolute;
+}
+
+.cardtitle {
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.cardtitle h2 {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section_cards {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 20px;
+  padding-top: 5px;
+  justify-content: space-around;
+}
+ 
+.card {
+  line-height: 6px;
+  padding-bottom: 70px;
+}
+
+.card img{
+  width: 300px;
+  border-radius: 15px;
+  border-radius: 15px;
+}
+
+#cardtitle {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+#Food {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+#autor {
+  font-family: 'Roboto';
+  color: #777777;
+}
+
+.footer {
+  max-height: 62px;
+  background-color: #eeeeee;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  padding-top: 20px;
+}
